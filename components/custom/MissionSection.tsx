@@ -3,7 +3,7 @@ import SectionWrapper from './SectionWrapper';
 const MissionSection = () => {
   return (
     <SectionWrapper id="mission" title="Missione">
-      <p className="text-xl text-gray-700 leading-relaxed">
+      <p className="text-base md:text-xl text-gray-700 leading-relaxed">
         “Ca&apos; Mia” ha come obiettivo delle sue attività il garantire l&apos;assistenza, la cura
         e tutte le risposte necessarie allo stato di bisogno psicofisico delle persone in essa
         ospitate, attraverso la disponibilità organizzata di risorse umane e materiali. Si struttura
@@ -17,11 +17,11 @@ const MissionSection = () => {
         (igiene, alimentazione, riposo, ecc.) così come una richiesta di tutela, mantenimento ed
         eventualmente di recupero, di tutte le sue capacità. <br />
       </p>
-      <p className="text-xl text-gray-700 leading-relaxed mt-4">
+      <p className="text-base md:text-xl text-gray-700 leading-relaxed mt-4">
         Sintetizzando, i bisogni che la persona presenta in modo unitario ed individuale possono
         essere così identificati:
       </p>
-      <ul className="text-xl text-gray-700 leading-relaxed list-disc list-inside">
+      <ul className="text-base md:text-xl text-gray-700 leading-relaxed list-disc list-inside">
         <li className="ml-4">bisogni primari fisiologici</li>
         <li className="ml-4">bisogni di tutela ed aiuto</li>
         <li className="ml-4">bisogni sanitari</li>
@@ -29,7 +29,7 @@ const MissionSection = () => {
         <li className="ml-4">bisogni affettivi e relazionali</li>
       </ul>
 
-      <p className="text-xl text-gray-700 leading-relaxed mt-4">
+      <p className="text-base md:text-xl text-gray-700 leading-relaxed mt-4">
         Nella complessità delle richieste del singolo quindi, l&apos;organizzazione della struttura
         nel suo complesso riconosce e stabilisce percorsi di intervento che tengono conto di quanto
         evidenziato ed evidenziabile, in modo da creare un&apos;opportunità di vita il più possibile

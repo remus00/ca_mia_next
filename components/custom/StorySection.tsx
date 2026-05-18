@@ -3,7 +3,7 @@ import SectionWrapper from './SectionWrapper';
 const StorySection = () => {
   return (
     <SectionWrapper id="story" title="Storia">
-      <p className="text-xl text-gray-700 leading-relaxed">
+      <p className="text-base md:text-xl text-gray-700 leading-relaxed">
         “Ca&apos; Mia” nasce nel 1986 grazie all&apos;impegno del parroco Don Aldo Molinaris,
         fondatore di questa opera parrocchiale, che in quegli anni, in pieno spirito di solidarietà
         e carità cristiana, accoglie i primi anziani soli e/o bisognosi di assistenza, senza fini di
