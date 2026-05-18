@@ -2,38 +2,56 @@ import { Bus, MapPin } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../ui/button';
+import FooterItem from './FooterItem';
 
 const Footer = () => {
   return (
     <div id="footer" className="grid grid-cols-2 gap-20 bg-[#57463F] text-white ">
-      <div className="col-span-1 flex flex-col py-20 pl-20">
-        <p className="text-2xl font-bold mb-2">R.S.A. &quot;Ca&apos; Mia&quot;</p>
-        <p className="text-lg text-gray-100">
-          Indirizzo: Via San G. B. Cottolengo, 8 <br /> 12060 Pocapaglia – CN <br /> Email:
-          ca.mia.pocapagllia@outlook.it <br /> PEC: camia.srl@legalmail.it <br /> telefono: 0172 47
-          32 25
-        </p>
+      <div className="col-span-1 flex flex-col py-20 pl-20 gap-8">
+        <FooterItem
+          title='R.S.A. "Ca&apos; Mia"'
+          description={
+            <span>
+              Indirizzo: Via San G. B. Cottolengo, 8 <br /> 12060 Pocapaglia – CN <br /> Email:
+              ca.mia.pocapagllia@outlook.it <br /> PEC: camia.srl@legalmail.it <br /> telefono: 0172
+              47 32 25
+            </span>
+          }
+        />
 
-        <p className="text-2xl font-bold mb-2 mt-6">Orari</p>
-        <p className="text-lg">
-          Orario visite: <br /> tutti i giorni dalle 10:00 alle 18:00
-        </p>
-        <p className="text-lg text-gray-100 mt-2">
-          Orario ufficio: <br /> dal lunedì al venerdì dalle 9:00 alle 18:00
-        </p>
+        <FooterItem
+          title="Normativa"
+          description={
+            <span>
+              L. 24/2017 “Legge Gelli-Bianco” <br />
+              Copertura assicurativa Unipolsai tramite Vittoria Assicurazioni
+            </span>
+          }
+        />
 
-        <p className="text-2xl font-bold mb-2 mt-6">Come raggiungerci</p>
-        <p className="text-lg">
-          &quot;Ca&apos; Mia&quot; è situata in Pocapaglia Villa, a 200 mt dal centro storico, a 6
-          km da Bra e a 15 km da Alba.
-        </p>
+        <FooterItem
+          title="Orari"
+          description={
+            <span className="flex flex-col gap-0">
+              <span>Orario visite:</span>
+              tutti i giorni dalle 10:00 alle 18:00
+              <span className="mt-2">Orario ufficio:</span>
+              dal lunedì al venerdì dalle 9:00 alle 18:00
+            </span>
+          }
+        />
 
-        <p className="text-lg mt-4">
-          Può essere raggiunta con autobus (linea 7) da Bra Movicentro con partenza ogni ora fino
-          alle 18,00.
-        </p>
+        <FooterItem
+          title="Come raggiungerci"
+          description={
+            <span>
+              &quot;Ca&apos; Mia&quot; è situata in Pocapaglia Villa, a 200 mt dal centro storico, a
+              6 km da Bra e a 15 km da Alba.
+            </span>
+          }
+        />
 
-        <div className="flex items-center gap-4 mt-4">
+        <div className="flex items-center gap-4">
           <Link href="https://maps.app.goo.gl/K6TS4ukjNwRWvP556" target="_blank">
             <Button
               variant="secondary"
