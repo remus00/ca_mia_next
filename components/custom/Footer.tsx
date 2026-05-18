@@ -30,7 +30,7 @@ const Footer = () => {
             description={
               <span>
                 L. 24/2017 “Legge Gelli-Bianco” <br />
-                Copertura assicurativa Unipolsai tramite Vittoria Assicurazioni
+                Copertura assicurativa Unipol Assicurazioni tramite Vittoria Assicurazioni
               </span>
             }
           />
