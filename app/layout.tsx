@@ -56,6 +56,9 @@ export const metadata: Metadata = {
       'it-IT': siteUrl,
     },
   },
+  verification: {
+    google: 'GxvgaQcyH-0xduey8bBWWREIRa7KTA2HIrTn7MmvW-A',
+  },
   robots: {
     index: true,
     follow: true,
