@@ -70,7 +70,7 @@ export const listItems = [
   {
     title: 'Diritto di riservatezza',
     description:
-      'Ogni persona ha diritto al rispetto del segreto su notizie personali da parte di chi eroga direttamente o indirettamente l&apos;assistenza ',
+      "Ogni persona ha diritto al rispetto del segreto su notizie personali da parte di chi eroga direttamente o indirettamente l'assistenza",
   },
   {
     title: 'Diritto di pensiero e di religione',
