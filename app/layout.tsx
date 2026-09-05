@@ -33,10 +33,6 @@ export const metadata: Metadata = {
   authors: [{ name: "R.S.A. Ca' Mia", url: siteUrl }],
   creator: "R.S.A. Ca' Mia",
   publisher: "R.S.A. Ca' Mia",
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/logo.jpg',
-  },
   keywords: [
     "RSA Ca' Mia",
     'Residenza Sanitaria Assistenziale Ca Mia',
